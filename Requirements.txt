@@ -1,0 +1,6 @@
+sentence-transformers
+spacy
+pandas
+numpy
+PyPDF2
+docx2txt

@@ -1,0 +1,42 @@
+2025-09-15 13:39:17,593 - INFO - Loading models...
+2025-09-15 13:39:17,595 - INFO - Use pytorch device_name: cpu
+2025-09-15 13:39:17,595 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 13:40:46,658 - INFO - Loading models...
+2025-09-15 13:40:46,659 - INFO - Use pytorch device_name: cpu
+2025-09-15 13:40:46,659 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-15 13:40:52,536 - INFO - Models loaded successfully.
+2025-09-15 13:40:52,536 - INFO - Starting JD-Resume Matching...
+2025-09-15 13:40:52,536 - INFO - Processing resume: Naukri_ShyamalKumar[11y_0m].docx
+2025-09-15 13:40:52,537 - INFO - Extracting text from: resumes/Naukri_ShyamalKumar[11y_0m].docx
+2025-09-15 13:40:52,559 - INFO - Extracted 6374 characters from DOCX resumes/Naukri_ShyamalKumar[11y_0m].docx
+2025-09-15 13:40:52,559 - INFO - Analyzing resume...
+2025-09-15 13:40:52,559 - INFO - Extracting skills...
+2025-09-15 13:40:52,560 - INFO - Matched skills: []
+2025-09-15 13:40:52,560 - INFO - Missing skills: ['Python', 'SQL', 'Machine Learning', 'Deep Learning', 'Cloud Computing']
+2025-09-15 13:40:52,560 - INFO - Skill Score: 0.00
+2025-09-15 13:40:52,560 - INFO - Computing semantic similarity...
+2025-09-15 13:40:52,708 - INFO - Similarity Score: 0.1772
+2025-09-15 13:40:52,708 - INFO - Final Match %: 7.09
+2025-09-15 13:40:52,708 - INFO - Processing resume: Naukri_SUKUMARBANERJEE[10y_0m].docx
+2025-09-15 13:40:52,709 - INFO - Extracting text from: resumes/Naukri_SUKUMARBANERJEE[10y_0m].docx
+2025-09-15 13:40:52,755 - INFO - Extracted 15666 characters from DOCX resumes/Naukri_SUKUMARBANERJEE[10y_0m].docx
+2025-09-15 13:40:52,755 - INFO - Analyzing resume...
+2025-09-15 13:40:52,755 - INFO - Extracting skills...
+2025-09-15 13:40:52,756 - INFO - Matched skills: ['Python']
+2025-09-15 13:40:52,756 - INFO - Missing skills: ['SQL', 'Machine Learning', 'Deep Learning', 'Cloud Computing']
+2025-09-15 13:40:52,756 - INFO - Skill Score: 0.20
+2025-09-15 13:40:52,756 - INFO - Computing semantic similarity...
+2025-09-15 13:40:52,837 - INFO - Similarity Score: 0.1353
+2025-09-15 13:40:52,837 - INFO - Final Match %: 17.41
+2025-09-15 13:40:52,837 - INFO - Processing resume: Naukri_VISHWANATHS[10y_0m].pdf
+2025-09-15 13:40:52,837 - INFO - Extracting text from: resumes/Naukri_VISHWANATHS[10y_0m].pdf
+2025-09-15 13:40:53,175 - INFO - Extracted 12458 characters from PDF resumes/Naukri_VISHWANATHS[10y_0m].pdf
+2025-09-15 13:40:53,175 - INFO - Analyzing resume...
+2025-09-15 13:40:53,175 - INFO - Extracting skills...
+2025-09-15 13:40:53,176 - INFO - Matched skills: ['Python']
+2025-09-15 13:40:53,176 - INFO - Missing skills: ['SQL', 'Machine Learning', 'Deep Learning', 'Cloud Computing']
+2025-09-15 13:40:53,176 - INFO - Skill Score: 0.20
+2025-09-15 13:40:53,176 - INFO - Computing semantic similarity...
+2025-09-15 13:40:53,243 - INFO - Similarity Score: 0.2091
+2025-09-15 13:40:53,243 - INFO - Final Match %: 20.36
+2025-09-15 13:40:53,258 - INFO - Matching complete. Results saved to jd_resume_match_report.csv
